@@ -1,0 +1,21 @@
+﻿global using FluentValidation;
+global using Mapster;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.Extensions.Options;
+global using System.ComponentModel.DataAnnotations;
+
+global using WebAPI.Abstractions;
+global using WebAPI.Abstractions.Consts;
+global using WebAPI.Authentication.Filters;
+global using WebAPI.Contracts.Authentication;
+global using WebAPI.Contracts.Polls;
+global using WebAPI.Contracts.Results;
+global using WebAPI.Entites;
+global using WebAPI.Errors;
+global using WebAPI.Extensions;
+global using WebAPI.Persistence;
+global using WebAPI.Services;
